@@ -36,7 +36,7 @@ What is not expected is that Tornado falls considerably behind the Websockets. W
 
 In conclusion, Websockets library seems to be winner of this comparison. It was not only better in one client and its performance decline in concurrent connections were slower than the Tornado. Websockets seems to manage concurrent clients up to 8 fairly good. Despite decrease in average throughput per client is considerably high, increase in total throughput per second is still high enough up to 8 clients. Of course, this will depend on the needs on the specific project since there is also increased latency factor with number of clients going up.
 
-Below tables with all the results data is provided below for those interested:
+Below tables with all the results data and a list of useful links are provided below for those interested:
 
 ## Websockets Data
 
@@ -63,3 +63,11 @@ Below tables with all the results data is provided below for those interested:
 | 32                | 73886          | 4.33                 | 2.06             | 13.98            | 7388.60                   | 230.89                                       |
 | 64                | 75712          | 8.45                 | 0.36             | 23.50            | 7571.20                   | 118.30                                       |
 | 128               | 75150          | 17.04                | 1.04             | 39.10            | 7515.00                   | 58.71                                        |
+
+## Useful Links
+[Awesome Websockets Repository](https://github.com/facundofarias/awesome-websockets)
+
+[WebSocket Performance Comparison](https://matttomasetti.medium.com/websocket-performance-comparison-10dc89367055)
+
+[Python is slow? Wait, it's actually fast!](https://ville-karkkainen.medium.com/python-is-slow-wait-its-actually-fast-6d2e49621b1)
+
