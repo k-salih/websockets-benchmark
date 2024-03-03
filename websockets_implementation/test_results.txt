@@ -1,0 +1,64 @@
+Number of clients: 1
+Total messages: 32553
+Average Latency: 0.31 ms
+Min Latency: 0.26 ms
+Max Latency: 0.97 ms
+Throughput: 3255.30 messages/sec across all clients
+Average Throughput per client: 3255.30 messages/sec per client
+
+Number of clients: 2
+Total messages: 59665
+Average Latency: 0.33 ms
+Min Latency: 0.29 ms
+Max Latency: 18.38 ms
+Throughput: 5966.50 messages/sec across all clients
+Average Throughput per client: 2983.25 messages/sec per client
+
+Number of clients: 4
+Total messages: 84790
+Average Latency: 0.47 ms
+Min Latency: 0.39 ms
+Max Latency: 1.35 ms
+Throughput: 8479.00 messages/sec across all clients
+Average Throughput per client: 2119.75 messages/sec per client
+
+Number of clients: 8
+Total messages: 101746
+Average Latency: 0.79 ms
+Min Latency: 0.67 ms
+Max Latency: 1.99 ms
+Throughput: 10174.60 messages/sec across all clients
+Average Throughput per client: 1271.83 messages/sec per client
+
+Number of clients: 16
+Total messages: 107125
+Average Latency: 1.49 ms
+Min Latency: 1.23 ms
+Max Latency: 3.83 ms
+Throughput: 10712.50 messages/sec across all clients
+Average Throughput per client: 669.53 messages/sec per client
+
+Number of clients: 32
+Total messages: 111217
+Average Latency: 2.88 ms
+Min Latency: 1.88 ms
+Max Latency: 8.94 ms
+Throughput: 11121.70 messages/sec across all clients
+Average Throughput per client: 347.55 messages/sec per client
+
+Number of clients: 64
+Total messages: 111486
+Average Latency: 5.74 ms
+Min Latency: 3.57 ms
+Max Latency: 14.77 ms
+Throughput: 11148.60 messages/sec across all clients
+Average Throughput per client: 174.20 messages/sec per client
+
+Number of clients: 128
+Total messages: 115302
+Average Latency: 11.11 ms
+Min Latency: 5.41 ms
+Max Latency: 29.45 ms
+Throughput: 11530.20 messages/sec across all clients
+Average Throughput per client: 90.08 messages/sec per client
+
