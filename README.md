@@ -1,6 +1,6 @@
 # Websockets Comparison  
 
-Purpose of this benchmark is to compare the throughput, latency(round-trip time) and scalability of the websocket server/client implementations of a Websockets and Tornado libraries. The choice of these libraries was driven by specific considerations. Websockets is one of the most widely used Python libraries for handling WebSocket connections, which is obvious from its name. As for Tornado, despite the presence of other potentially higher-performing options, it was selected because it has been tested much.
+Purpose of this benchmark is to compare the throughput, latency(round-trip time) and scalability of the websocket server/client implementations of a Websockets and Tornado libraries. The choice of these libraries was driven by specific considerations. Websockets is one of the most widely used Python libraries for handling WebSocket connections, which is obvious from its name. As for Tornado, despite the presence of other potentially higher-performing options, it was selected because it has not been tested much.
 
 In order to do this comparison, I/O bound setting is utilized where client sends data to an echo server and waits for the response. Client behavior is kept same between 2 implementations. Test are conducted using different number of concurrent clients. Test durations were 10 seconds after the establishment of the connection.
 
